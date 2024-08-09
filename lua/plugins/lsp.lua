@@ -1,5 +1,8 @@
 return {
   {
+    "prisma/vim-prisma",
+  },
+  {
     "stevearc/conform.nvim",
     dependencies = {
       {
@@ -10,6 +13,7 @@ return {
             "json-lsp",
             "typescript-language-server",
             "tailwindcss-language-server",
+            "prisma-language-server",
             "biome",
           })
         end,
