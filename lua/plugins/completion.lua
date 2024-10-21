@@ -1,7 +1,9 @@
 return {
   {
     "codota/tabnine-nvim",
+    event = "VeryLazy",
     build = "./dl_binaries.sh",
+    enabled = true,
     cmd = { "TabnineStatus", "TabnineDisable", "TabnineEnable", "TabnineToggle" },
     config = function()
       require("tabnine").setup({
